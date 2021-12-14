@@ -50,16 +50,21 @@ Relations between them are depicted here:
 * HTML, CSS
 * Maven
 * Apache Tomcat
+* Apache Log4j
 
 ### Important notes on how to start
 
 To start the app you need to have Apache Tomcat and MySQL 
 installed and configured. Create MySQL schema using the
-script to be found here: resources/init_db.sql.<br><br>
+script to be found here: 
+```
+/resources/init_db.sql
+```
 To obtain access to MySQL DB you should edit "user" and "password" fields in
 /util/ConnectionUtil.java to match your own.
-In order logger to work properly please change "logs\app.log" in  
-src/main/resources/log4j2.xml to the absolute path to your desired .log file.
-
+In order logger to log into file properly please change corresponding field in src/main/resources/log4j2.xml:
+```
+File name="LogToFile" filename=absolute/path/to/your/desired/file.log
+```
 #### Then get into the yellow cab and enjoy the ride! Don't forget to fasten your seat belts!
 ![](images/pattern.svg) 
