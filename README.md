@@ -1,11 +1,11 @@
 ![](images/pattern.svg) 
 # Welcome to the taxi service!
-<div style="text-align: right"><sub>I like this taxi driver,&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<br>
+<div align="right"><sub>I like this taxi driver,&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<br>
 racing through the dark streets<br>
 of Tokyo&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<br>
 as if life had no meaning.&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<br>
 I feel the same way.&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<br>
-<i><b>Richard Brautigan</b></i></sub></div>
+<i><b>Richard Brautigan</b></i></sub></div><br>
 
 We love to take a joy taxi ride but to maintain the whole taxi service is not an 
 easy task! Our little but so useful app is aimed to help manage this restless 
@@ -54,8 +54,8 @@ Relations between them are depicted here:
 ### Important notes on how to start
 
 To start the app you need to have Apache Tomcat and MySQL 
-installed and configured. An SQL schema is to be created using the
-script found in resources/init_db.sql.<br><br>
+installed and configured. Create MySQL schema using the
+script to be found here: resources/init_db.sql.<br><br>
 To obtain access to MySQL DB you should edit "user" and "password" fields in
 /util/ConnectionUtil.java to match your own.
 In order logger to work properly please change "logs\app.log" in  
