@@ -4,14 +4,14 @@
         <Console name="LogToConsole" target="SYSTEM_OUT">
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
         </Console>
-        <File name="LogToFile" filename="/Users/drossel/IdeaProjects/taxi-service/logs/app.log">
+        <File name="LogToFile" filename="/Users/Username/IdeaProjects/taxi-service/logs/app.log">
             <PatternLayout>
             <Pattern>%d %p %c:%L %msg%n</Pattern>
             </PatternLayout>
         </File>
     </Appenders>
     <Loggers>
-        <Logger name="mate" level="info" additivity="false">
+        <Logger name="taxi" level="info" additivity="false">
             <AppenderRef ref="LogToFile"/>
             <AppenderRef ref="LogToConsole"/>
         </Logger>

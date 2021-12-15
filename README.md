@@ -1,8 +1,8 @@
 ![](images/pattern.svg) 
 # Welcome to the taxi service!
-<div align="right"><sub>I like this taxi driver,&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<br>
+<div align="right"><sub>I like this taxi driver,&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<br>
 racing through the dark streets<br>
-of Tokyo&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<br>
+of Tokyo&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<br>
 as if life had no meaning.&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<br>
 I feel the same way.&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<br>
 <i><b>Richard Brautigan</b></i></sub></div><br>
@@ -60,7 +60,7 @@ script to be found here:
 ```
 /resources/init_db.sql
 ```
-To obtain access to MySQL DB you should edit "user" and "password" fields in
+To obtain access to MySQL DB you should edit "URL", "USERNAME" and "PASSWORD" fields in
 /util/ConnectionUtil.java to match your own.
 In order logger to log into file properly please change corresponding field in src/main/resources/log4j2.xml:
 ```
