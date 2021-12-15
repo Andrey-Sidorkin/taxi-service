@@ -4,9 +4,9 @@ import java.util.Optional;
 import taxi.exception.AuthenticationException;
 import taxi.lib.Inject;
 import taxi.lib.Service;
-import taxi.model.Driver;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import taxi.model.Driver;
 
 @Service
 public class AuthenticationServiceImpl implements AuthenticationService {

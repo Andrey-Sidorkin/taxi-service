@@ -1,32 +1,37 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
 <style>
-    <%@include file='/WEB-INF/views/css/table_dark.css' %>
+    <%@include file='/WEB-INF/views/css/styles.css' %>
 </style>
 <html>
 <head>
-    <title>Add car</title>
+    <title>Add new car</title>
 </head>
-<body>
-<form method="post" id="car" action="${pageContext.request.contextPath}/cars/add"></form>
-<h1 class="table_dark">Add car:</h1>
-<table border="1" class="table_dark">
-    <tr>
-        <th>Model</th>
-        <th>Manufacturer ID</th>
-        <th>Add</th>
-    </tr>
-    <tr>
-        <td>
-            <input type="text" name="model" form="car" required>
-        </td>
-        <td>
-            <input type="number" name="manufacturer_id" form="car" required>
-        </td>
-        <td>
-            <input type="submit" name="add" form="car">
-        </td>
-    </tr>
-</table>
+<body style="background-color:LightGoldenRodYellow;text-align:center">
+<h1 class="table">Create new car:</h1>
+    <c:if test = "${empty manufacturers}">
+        <p class="cameo">
+            We have no manufacturers yet. <a href="${pageContext.request.contextPath}/manufacturers/add">Create one</a> first.
+        </p>
+    </c:if>
+    <c:if test = "${!empty manufacturers}">
+        <form method="post" action="${pageContext.request.contextPath}/cars/add">
+                <p class="cameo">
+                <label for="manufacturers">Manufacturer:</label>
+                <select id="manufacturers" name=manufacturer_id>
+                    <c:forEach items = "${manufacturers}" var = "manufacturer">
+                        <option value="${manufacturer.id}">${manufacturer.name}</option>
+                    </c:forEach>
+                </select>
+                <label for="model">Car model:</label>
+                <input type="text" id="model" name="model" required>
+                <button type="submit">Add</button>
+            </p>
+        </form>
+    </c:if>
+<footer><p class="table" style="font-size:14px;">
+    <a href="${pageContext.request.contextPath}/index">Back to index page</a></p>
+</footer>
 </body>
 </html>
