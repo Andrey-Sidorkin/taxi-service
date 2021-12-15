@@ -4,7 +4,7 @@
 racing through the dark streets<br>
 of Tokyo&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<br>
 as if life had no meaning.&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<br>
-I feel the same way.&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<br>
+I feel the same way.&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<br>
 <i><b>Richard Brautigan</b></i></sub></div><br>
 
 We love to take a joy taxi ride but to maintain the whole taxi service is not an 
