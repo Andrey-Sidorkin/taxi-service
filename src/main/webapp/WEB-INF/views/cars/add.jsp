@@ -19,19 +19,22 @@
         <form method="post" action="${pageContext.request.contextPath}/cars/add">
                 <p class="cameo">
                 <label for="manufacturers">Manufacturer:</label>
-                <select id="manufacturers" name=manufacturer_id>
+                <select id="manufacturers" name=manufacturer_id class="field">
                     <c:forEach items = "${manufacturers}" var = "manufacturer">
                         <option value="${manufacturer.id}">${manufacturer.name}</option>
                     </c:forEach>
                 </select>
                 <label for="model">Car model:</label>
-                <input type="text" id="model" name="model" required>
-                <button type="submit">Add</button>
+                <input type="text" id="model" name="model" class="field" required>
+                <button type="submit" class="button">Create</button>
             </p>
         </form>
     </c:if>
-<footer><p class="table" style="font-size:14px;">
-    <a href="${pageContext.request.contextPath}/index">Back to index page</a></p>
+<footer>
+    <br>
+    <div style="text-align: center;">
+        <a href="${pageContext.request.contextPath}/index" class="button">Back to index page</a>
+    </div>
 </footer>
 </body>
 </html>

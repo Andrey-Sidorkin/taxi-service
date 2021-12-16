@@ -6,8 +6,7 @@
     background-color: LightGoldenRodYellow;
     border-collapse: collapse;
     border: LightGoldenRodYellow;
-    padding: 12px 17px;
-
+    padding: 12px 0px;
 }
 
 .table p {
@@ -23,6 +22,7 @@
 
 .table tr:nth-child(even) {
     background: ivory;
+    background-image: linear-gradient(to right, LightGoldenRodYellow, ivory, ivory, ivory, ivory, ivory, ivory, LightGoldenRodYellow);
     font-size: 14px;
     font-weight: lighter;
 }
@@ -43,6 +43,7 @@
 .cameo {
     font-family: 'Poppins', sans-serif;
     background: ivory;
+    background-image: linear-gradient(to right, LightGoldenRodYellow, ivory, ivory, ivory, ivory, ivory, ivory, LightGoldenRodYellow);
     font-size: 14px;
     font-weight: lighter;
     padding: 12px 17px;
@@ -53,4 +54,31 @@
     font-size: 14px;
     font-weight: lighter;
     padding: 12px 17px;
+}
+
+.button {
+    background-color: khaki;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    border: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px 2px;
+    padding: 3px 6px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.field {
+    font-family: 'Poppins', sans-serif;
+    background: LightGoldenRodYellow;
+    font-size: 14px;
+    font-weight: lighter;
+    border-radius: 6px;
+    border-width: thin;
+    padding: 0px 6px;
+    margin: 2px;
 }

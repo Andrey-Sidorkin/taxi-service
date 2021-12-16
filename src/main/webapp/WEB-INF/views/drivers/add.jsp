@@ -12,15 +12,18 @@
 <h1 class="table">Create new driver:</h1>
 <form method="post" id="driver" action="${pageContext.request.contextPath}/drivers/add">
     <p class="cameo">
-        Name: <input type="text" name="name" required>
-        License number: <input type="text" name="license_number" required>
-        Login: <input type="text" name="login" required>
-        Password: <input type="password" name="password" required>
-        <button type="submit">Create</button>
+        Name: <input type="text" name="name" class="field" required>
+        License number: <input type="text" name="license_number" class="field" required>
+        Login: <input type="text" name="login" class="field" required>
+        Password: <input type="password" name="password" class="field" required>
+        <button class="button" type="submit">Create</button>
     </p>
 </form>
-<footer><p class="table" style="font-size:14px;">
-    <a href="${pageContext.request.contextPath}/index">Back to index page</a></p>
+<footer>
+    <br>
+    <div style="text-align: center;">
+        <a href="${pageContext.request.contextPath}/index" class="button">Back to index page</a>
+    </div>
 </footer>
 </body>
 </html>

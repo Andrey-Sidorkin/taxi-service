@@ -12,13 +12,16 @@
 <h1 class="table">Create new manufacturer:</h1>
 <form method="post" id="manufacturer" action="${pageContext.request.contextPath}/manufacturers/add">
     <p class="cameo">
-        Name: <input type="text" name="name" required>
-        Country: <input type="text" name="country" required>
-        <button type="submit">Create</button>
+        Name: <input type="text" name="name" class="field" required>
+        Country: <input type="text" name="country" class="field" required>
+        <button class="button" type="submit">Create</button>
     </p>
 </form>
-<footer><p class="table" style="font-size:14px;">
-    <a href="${pageContext.request.contextPath}/index">Back to index page</a></p>
+<footer>
+    <br>
+    <div style="text-align: center;">
+        <a href="${pageContext.request.contextPath}/index" class="button">Back to index page</a>
+    </div>
 </footer>
 </body>
 </html>

@@ -11,7 +11,7 @@
 <body style="background-color:LightGoldenRodYellow;text-align:center">
 <h1 class="table">My cars:</h1>
 <c:if test = "${empty cars}">
-    <p class="cameo">You have no cars yet. <a href="${pageContext.request.contextPath}/cars/drivers/add">Choose yours</a> first.</p>
+    <p class="cameo">You have no cars yet. <a href="${pageContext.request.contextPath}/cars/drivers/add">Assign one</a> first.</p>
 </c:if>
 <c:if test = "${!empty cars}">
     <table class="table">
@@ -48,8 +48,11 @@
         </c:forEach>
     </table>
 </c:if>
-<footer><p class="table" style="font-size:14px;">
-    <a href="${pageContext.request.contextPath}/index">Back to index page</a></p>
+<footer>
+    <br>
+    <div style="text-align: center;">
+        <a href="${pageContext.request.contextPath}/index" class="button">Back to index page</a>
+    </div>
 </footer>
 </body>
 </html>

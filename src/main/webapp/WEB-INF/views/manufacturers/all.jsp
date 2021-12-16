@@ -32,14 +32,17 @@
                     <c:out value="${manufacturer.country}"/>
                 </td>
                 <td>
-                    <a href="${pageContext.request.contextPath}/manufacturers/delete?id=${manufacturer.id}">DELETE</a>
+                    <a href="${pageContext.request.contextPath}/manufacturers/delete?id=${manufacturer.id}" class="button">DELETE</a>
                 </td>
             </tr>
         </c:forEach>
     </table>
 </c:if>
-<footer><p class="table" style="font-size:16px;">
-    <a href="${pageContext.request.contextPath}/index">Back to index page</a></p>
+<footer>
+    <br>
+    <div style="text-align: center;">
+        <a href="${pageContext.request.contextPath}/index" class="button">Back to index page</a>
+    </div>
 </footer>
 </body>
 </html>

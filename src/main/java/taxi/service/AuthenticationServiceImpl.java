@@ -1,11 +1,11 @@
 package taxi.service;
 
 import java.util.Optional;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import taxi.exception.AuthenticationException;
 import taxi.lib.Inject;
 import taxi.lib.Service;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import taxi.model.Driver;
 
 @Service
