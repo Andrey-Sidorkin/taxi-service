@@ -9,7 +9,7 @@ I feel the same way.&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 
 We love to take a joy taxi ride but to maintain the whole taxi service is not an 
 easy task! Our little but so useful app is aimed to help manage this restless 
-business and to keep all the things in one place.
+business and to keep all the things in one place. Some screenshots can be found [here](https://imgur.com/a/11lWn1O).
 
 #### With its help upon login you can:
 
@@ -34,7 +34,7 @@ special field injector to keep
 the Dependency Inversion Principle.
 
 Service data is stored in MySQL tables. 
-Relations between them are depicted here:
+Relations between them are depicted below:
 
 ![](images/tables.svg)
 
