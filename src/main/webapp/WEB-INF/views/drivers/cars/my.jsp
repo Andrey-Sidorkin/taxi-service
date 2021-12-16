@@ -49,7 +49,7 @@
     </table>
 </c:if>
 <footer>
-    <br>
+    <br><br>
     <div style="text-align: center;">
         <a href="${pageContext.request.contextPath}/index" class="button">Back to index page</a>
     </div>

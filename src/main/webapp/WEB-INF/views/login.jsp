@@ -23,6 +23,7 @@
     </p>
 </form>
 <footer>
+    <br/>
     <a href="${pageContext.request.contextPath}/drivers/add" class="button">Register new driver</a>
 </footer>
 </body>

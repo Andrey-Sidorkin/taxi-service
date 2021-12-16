@@ -8,7 +8,7 @@
 <head>
     <title>All drivers</title>
 </head>
-<body style="background-color:LightGoldenRodYellow">
+<body style="background-color:LightGoldenRodYellow;text-align:center">
 <h1 class="table">All drivers:</h1>
 <c:if test = "${empty drivers}">
     <p class="cameo">We have no drivers yet. <a href="${pageContext.request.contextPath}/drivers/add">Create one</a> first.</p>
@@ -39,7 +39,7 @@
     </table>
 </c:if>
 <footer>
-    <br>
+    <br><br>
     <div style="text-align: center;">
     <a href="${pageContext.request.contextPath}/index" class="button">Back to index page</a>
     </div>
